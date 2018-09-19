@@ -1,0 +1,13 @@
+{
+  "p_length":300,
+  "q_length":30,
+  "emb_dim":300,
+  "filter_size":128,
+  "batch":20,
+  "vocab_size":3000,
+  "char_limit":16,
+  "char_dim":64,
+  "char_vocab_size":1368,
+  "dropout":0.1,
+  "char_emb_size":200
+}
