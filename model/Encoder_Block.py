@@ -54,7 +54,7 @@ def norm_fn(x, scope, reuse,regularizer, filters=None,epsilon=12-6):
         # 泛化操作
         norm_x = (x - mean) * tf.rsqrt(variance + epsilon) #(b,q,1,emb)
         return norm_x * scale + bias
-print("test")
+
 
 def position_encoding(outputs):
     # TODO: 源自 attention is all you need 3.5 position encoding
